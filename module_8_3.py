@@ -22,8 +22,6 @@ class Car:
             raise IncorrectCarNumbers('Неверная длина номера')
         return True
 
-
-
 class IncorrectVinNumber(Exception):
     def __init__(self, message):
         self.message = message
@@ -31,7 +29,6 @@ class IncorrectVinNumber(Exception):
 class IncorrectCarNumbers(Exception):
     def __init__(self, message):
         self.message = message
-
 
 ## Пример выполняемого кода:
 try:
